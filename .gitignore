@@ -7,8 +7,11 @@
 *.userosscache
 *.sln.docstates
 
-# config.Release
+# Web project config.Release
 /AKAdStore.Web/Web.Release.config
+
+#Cloud Service Configuration
+/AKAdStoreCloudService/*.Cloud.cscfg
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
