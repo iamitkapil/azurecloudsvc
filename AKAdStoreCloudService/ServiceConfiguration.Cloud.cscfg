@@ -8,6 +8,7 @@
       <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="58565e72-c49f-47c2-8321-56451051bf9a" />
     </ConfigurationSettings>
   </Role>
+  
   <Role name="AKAdStore.Worker">
     <Instances count="1" />
     <ConfigurationSettings>
