@@ -7,6 +7,12 @@
 *.userosscache
 *.sln.docstates
 
+# config.Release
+*.Release.config
+
+# Cloud Service Configuration File
+*.Cloud.config
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -240,3 +246,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/New Text Document.txt
