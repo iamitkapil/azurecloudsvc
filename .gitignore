@@ -7,6 +7,12 @@
 *.userosscache
 *.sln.docstates
 
+# config.Release
+*.Release.config
+
+# Cloud Service Configuration File
+*.Cloud.config
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
