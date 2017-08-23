@@ -3,8 +3,8 @@
   <Role name="AKAdStore.Web">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=csvcsstorage;AccountKey=qp9ScJu39v8QG+ufc/E5g+ymVToy4868+bY2RU1NO1VjRgCXDsUAGKc/Wqe9bZULwmyIG7mPkwfddxCtZLYkjQ==" />
-      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=csvcstorage;AccountKey=qp9ScJu39v8QG+ufc/E5g+ymVToy4868+bY2RU1NO1VjRgCXDsUAGKc/Wqe9bZULwmyIG7mPkwfddxCtZLYkjQ==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="58565e72-c49f-47c2-8321-56451051bf9a" />
     </ConfigurationSettings>
   </Role>
@@ -12,9 +12,9 @@
   <Role name="AKAdStore.Worker">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=csvcsstorage;AccountKey=qp9ScJu39v8QG+ufc/E5g+ymVToy4868+bY2RU1NO1VjRgCXDsUAGKc/Wqe9bZULwmyIG7mPkwfddxCtZLYkjQ==" />
-      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=csvcstorage;AccountKey=qp9ScJu39v8QG+ufc/E5g+ymVToy4868+bY2RU1NO1VjRgCXDsUAGKc/Wqe9bZULwmyIG7mPkwfddxCtZLYkjQ==" />
-      <Setting name="AdsDbConnectionString" value="Server=tcp:csvsakdbserver.database.windows.net,1433;Initial Catalog=AKAds;Persist Security Info=False;User ID=iamitkapil;Password=C!af0ry0u;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="AdsDbConnectionString" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=AkAds; Integrated Security=True; MultipleActiveResultSets=True;" />
       <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="58565e72-c49f-47c2-8321-56451051bf9a" />
     </ConfigurationSettings>
   </Role>
